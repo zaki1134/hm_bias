@@ -1,9 +1,13 @@
+from Utils import bellcurve, linear, exponential
+
+
 def pre_main():
     main()
 
 
 def main():
-    pass
+    (exponential(3.0, 10, 3.0))
+    (exponential(3.0, 10, -3.0))
 
 
 if __name__ == "__main__":
